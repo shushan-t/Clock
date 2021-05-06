@@ -1,12 +1,14 @@
 
-import './App.css';
-import Clock from './clock';
-import './clock.css';
+import Clock from './Clock/clock';
+import FClock from "./Clock/functionClock";
+import "./ClockCss/App.css";
+
 
 function App() {
   return (
     <div className="App">
       <Clock />
+      {/* <FClock /> */}
     </div>
   );
 }

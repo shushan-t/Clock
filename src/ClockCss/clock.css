@@ -3,12 +3,11 @@
   font-family: sans-serif;
 }
 .clock{
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/1200px-Horlo%C4%9Do_001.svg.png');
+  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/1200px-Horlo%C4%9Do_001.svg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   width: 300px;
   height: 300px;
-  background-color: aqua;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,7 +15,7 @@
   height: 300px;
   transform: translate(-50%, -50%);
 }
-/* .clock {
+.clock {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -28,7 +27,7 @@
   font-size: 24px;
   color: #444;
   text-align: center;
-} */
+}
 
 .clock::after {
   background: rgb(211, 209, 209);
@@ -74,11 +73,11 @@
   transform-origin: bottom;
 }
 
-/* .clock span {
+.clock span {
   position: absolute;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
-} */
+}
 
 .twelve {
   top: 10px;

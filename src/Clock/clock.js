@@ -1,6 +1,6 @@
 
 import React, {Component } from 'react';
-import TodoForm from "./inputForm";
+import '../ClockCss/clock.css';
 
 class Clock  extends Component {
  
@@ -46,9 +46,8 @@ class Clock  extends Component {
             value={this.state.seconds}
             onChange={this.handleChange}
           />
-          <TodoForm />
         </div>
-        {/* <div className="clock">
+        <div className="clock">
           <div
             className="hourIndex"
             style={{
@@ -69,8 +68,8 @@ class Clock  extends Component {
               transform: `rotateZ(${this.state.seconds * 6}deg)`,
               transitionDuration: "3s",
             }}
-          /> */}
-          {/* <span className="twelve">12</span>
+          />
+          <span className="twelve">12</span>
           <span className="one">1</span>
           <span className="two">2</span>
           <span className="three">3</span>
@@ -81,8 +80,8 @@ class Clock  extends Component {
           <span className="eight">8</span>
           <span className="nine">9</span>
           <span className="ten">10</span>
-          <span className="eleven">11</span> */}
-          {/* </div> */}
+          <span className="eleven">11</span> 
+          </div>
         
       </div>
     );

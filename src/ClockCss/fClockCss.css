@@ -1,0 +1,81 @@
+.clockF{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/1200px-Horlo%C4%9Do_001.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .clock::after {
+    background: rgb(211, 209, 209);
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid ;
+  }
+  
+  .hourIndex {
+    position: absolute;
+    width: 6px;
+    height: 60px;
+    background: #222;
+    top: 30%;
+    left: 49%;
+    transform-origin: bottom;
+  }
+  
+  .minIndex {
+    position: absolute;
+    width: 4px;
+    height: 80px;
+    background: #444;
+    top: 22.5%;
+    left: 49%;
+    transform-origin: bottom;
+  }
+  
+  .secIndex {
+    position: absolute;
+    width: 2px;
+    height: 110px;
+    background: rgb(100, 35, 35);
+    top: 10.5%;
+    left: 50%;
+    transform-origin: bottom;
+  }
+  button{
+    margin: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .input {
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+  }
+  
+  
